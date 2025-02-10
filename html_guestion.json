@@ -1,0 +1,115 @@
+{
+    "quiz": {
+        "programming": [
+            {
+                "question": "What does HTML stand for?",
+                "options": ["Hyper Text Markup Language", "High Tech Modern Language", "Home Tool Markup Language", "Hyperlink Text Management Language"],
+                "answer": "Hyper Text Markup Language"
+            },
+            {
+                "question": "Which programming language is known as the 'mother of all languages'?",
+                "options": ["C", "Assembly", "Python", "Java"],
+                "answer": "C"
+            },
+            {
+                "question": "What does CSS stand for?",
+                "options": ["Cascading Style Sheets", "Computer Style Sheets", "Creative Style System", "Colorful Style Sheets"],
+                "answer": "Cascading Style Sheets"
+            },
+            {
+                "question": "Which company developed Java?",
+                "options": ["Microsoft", "Apple", "Sun Microsystems", "Google"],
+                "answer": "Sun Microsystems"
+            },
+            {
+                "question": "Which of the following is not a programming language?",
+                "options": ["Python", "Java", "HTML", "C++"],
+                "answer": "HTML"
+            },
+            {
+                "question": "What symbol is used for comments in JavaScript?",
+                "options": ["//", "/* */", "#", "--"],
+                "answer": "//"
+            },
+            {
+                "question": "Which keyword is used to declare a constant variable in JavaScript?",
+                "options": ["var", "let", "const", "static"],
+                "answer": "const"
+            },
+            {
+                "question": "Which of the following is a backend framework?",
+                "options": ["React", "Vue", "Node.js", "Bootstrap"],
+                "answer": "Node.js"
+            },
+            {
+                "question": "Which language is primarily used for iOS app development?",
+                "options": ["Swift", "Java", "C#", "Kotlin"],
+                "answer": "Swift"
+            },
+            {
+                "question": "Which HTML element is used to define JavaScript inside HTML?",
+                "options": ["<script>", "<js>", "<javascript>", "<code>"],
+                "answer": "<script>"
+            },
+            {
+                "question": "Which database is NoSQL?",
+                "options": ["MySQL", "MongoDB", "PostgreSQL", "SQLite"],
+                "answer": "MongoDB"
+            },
+            {
+                "question": "What is the default port for HTTP?",
+                "options": ["80", "443", "8080", "21"],
+                "answer": "80"
+            },
+            {
+                "question": "Which of the following is a Python framework for web development?",
+                "options": ["Django", "React", "Flask", "Spring"],
+                "answer": "Django"
+            },
+            {
+                "question": "Which command is used to initialize a Git repository?",
+                "options": ["git init", "git start", "git new", "git create"],
+                "answer": "git init"
+            },
+            {
+                "question": "Which symbol is used for exponentiation in Python?",
+                "options": ["^", "**", "^^", "//"],
+                "answer": "**"
+            }
+        ],
+        "science": [
+            {
+                "question": "What is the chemical symbol for gold?",
+                "options": ["Au", "Ag", "Pb", "Fe"],
+                "answer": "Au"
+            },
+            {
+                "question": "Which planet is known as the Red Planet?",
+                "options": ["Mars", "Venus", "Jupiter", "Saturn"],
+                "answer": "Mars"
+            },
+            {
+                "question": "What is the process by which plants make their own food?",
+                "options": ["Respiration", "Photosynthesis", "Fermentation", "Digestion"],
+                "answer": "Photosynthesis"
+            }
+        ],
+        "sports": [
+            {
+                "question": "How many players are on a standard soccer team?",
+                "options": ["9", "10", "11", "12"],
+                "answer": "11"
+            },
+            {
+                "question": "What is the national sport of Japan?",
+                "options": ["Judo", "Karate", "Sumo Wrestling", "Baseball"],
+                "answer": "Sumo Wrestling"
+            },
+            {
+                "question": "Which country won the FIFA World Cup in 2018?",
+                "options": ["Brazil", "Germany", "France", "Argentina"],
+                "answer": "France"
+            }
+        ]
+    }
+}

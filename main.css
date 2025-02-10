@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+:root {
+    --main-color : #0075ff;
+}
+
+.qize-app {
+    width: 85%;
+    background-color: #f8f8f8;
+    margin: 20px auto;
+    padding: 20px;
+}
+@media (max-width: 767px) {
+    .qize-app {
+        width: 98%;
+    }
+}
+.qize-app .quiz-info {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+}
+.qize-app .quiz-info span {
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.qize-app .quize-area {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 15px
+}
+.qize-app .quize-area h2 {
+    margin: 0;
+}
+.qize-app .answers-area {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 3px;
+}
+.qize-app .answers-area .answer {
+    background-color: #f9f9f9;
+    padding: 20px
+}
+.qize-app .answers-area .answer:not(:last-child) {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+/* إخفاء الـ radio الأصلي */
+.qize-app .answers-area .answer input[type="radio"] {
+    display: none;
+}
+
+/* تصميم الـ label ليبدو كـ radio button */
+.qize-app .answers-area .answer label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #777;
+}
+
+/* إنشاء دائرة الراديو عبر الـ label */
+.qize-app .answers-area .answer label::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #777;
+}
+
+/* تغيير لون label + دائرة الراديو عند التحديد */
+.qize-app .answers-area .answer input[type="radio"]:checked + label {
+    color: var(--main-color); /* تغيير لون النص */
+}
+
+/* تغيير لون الدائرة عند تحديد radio */
+.qize-app .answers-area .answer input[type="radio"]:checked + label::before {
+    border-color: white;
+    background-color: var(--main-color); /* تغيير لون الخلفية */
+}
+
+.qize-app .submit-botton {
+    background-color: var(--main-color);
+    color: #fff;
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    margin: 20px auto;
+}
+.qize-app .bullets {
+    background-color: #fff;
+    border-top: 1px solid #fdfdfd;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.qize-app .bullets .spans {
+    display: flex;
+}
+.qize-app .bullets .spans span {
+    width: 20px;
+    height: 20px;
+    background-color: #ddd;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+.qize-app .bullets .spans span.on {
+    background-color: var(--main-color);
+}
+.qize-app .bullets .count-down {
+
+}
+.qize-app  .results span {
+    font-weight: bold;
+}
+.qize-app  .results span.bad {
+    color: #dc0a0a;
+}
+.qize-app  .results span.good {
+    color: #009688;
+}
+.qize-app  .results span.perfect {
+    color: var(--main-color);
+}
